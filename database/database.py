@@ -29,4 +29,4 @@ class Database:
         if self.Session is None:
             raise Exception("Database was not initialized")
 
-        return self.Session
+        return self.Session()
